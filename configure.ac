@@ -9,7 +9,7 @@ dnl
 dnl ----------------------------------------------------------------------------
 
 AC_INIT([modbus], [0.3.0], [info@rscada.se], [modbus], [http://www.rscada.se/libmodbus/])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AM_INIT_AUTOMAKE([-Wall foreign])
 
 AC_CONFIG_MACRO_DIR([m4])
 

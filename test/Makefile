@@ -9,10 +9,10 @@
 # ------------------------------------------------------------------------------
 
 
-CFLAGS=-Wall -g -I..
-LDFLAGS=-L.. -lmodbus
+CFLAGS=-Wall -g -I../root/include
+LDFLAGS=-lmodbus
 
-all: modbus_test1 modbus_udp_client_test1 modbus_tcp_client_test1 modbus_tcp_server_test1
+all: modbus_udp_client_test1
 
 %.o: %.c
 	$(CC) -c $(CFLAGS) $< -o $@
